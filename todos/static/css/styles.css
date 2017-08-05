@@ -1,4 +1,18 @@
 a
 {
-    color:green;
+    text-decoration: none;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+p
+{
+    font-family: 'Cantarell', sans-serif;
+}
+h1
+{
+    font-family: 'Permanent Marker', cursive;
 }

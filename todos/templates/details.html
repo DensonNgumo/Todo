@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block body %}
+<h1>{{todo.title}}</h1>
+
+<p class="lead well">{{todo.text}}</p>
+<br>
+Created on {{todo.created_at}}
+<a href="{% url 'index' %}" class="btn btn-default">Go Back </a>
+{% endblock %}

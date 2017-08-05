@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{%block body%}
+
+<h1> Todo List: </h1>
+<hr>
+<ul>
+    {%for todo in todos%}
+    <li class="well"><a href="details/{{todo.id}}" class="lead"> {{todo.title}} :</a><br/>
+    <p class="lead">{{todo.text}}</p>
+    </li>
+    {%endfor%}
+</ul>
+
+
+
+{% endblock %}
+    
